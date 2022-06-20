@@ -1,0 +1,60 @@
+header {
+    background-image: url(/images/flywheel.jpg);
+    background-repeat: no-repeat;
+    background-position: cover;
+    height: 150px;
+}
+
+h1 {
+    padding-top: 35px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: #eee;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255, 255, 255, .4);
+    padding: 16px 50px;
+    margin: 0 30px;
+    border-radius: 5px;
+}
+
+.active {
+    background-color: #eee !important;
+    opacity: 100%;
+}
+
+nav {
+    text-align:center;
+}
+
+/* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA */
+/* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA */
+/* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA */
+
+aside {
+    background-color: olive;
+    padding: 20px;
+    padding-bottom: 50px;
+    float:left; display:inline;
+}
+
+img {
+    height: 130px;
+    width: 230px;
+    display: block;
+    border: #000000 solid;
+    margin: 20px 0;
+}
+
+/* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA */
+/* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA */
+/* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA */
+
+section {
+    float:left; display:right; width: 60%;
+}
