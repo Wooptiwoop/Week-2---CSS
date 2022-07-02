@@ -1,7 +1,9 @@
 header {
     background-image: url(images/flywheel.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     height: 150px;
+    width: 100%;
 }
 
 h1 {
@@ -44,7 +46,7 @@ aside {
 
 img {
     height: 130px;
-    width: 230px;
+    width: 100%;
     display: block;
     border: #000000 solid;
     margin: 20px 0;
@@ -54,6 +56,60 @@ img {
 /* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA */
 /* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA */
 
+.right {
+    padding-left: 10px;
+}
+
+table {
+    margin: 0 25px;
+    line-height: 20px;
+    width: 100%;
+    font-size: 1em;
+}
+
+th {
+    border-radius: 10px 10px 0 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgb(224,164,164);
+    background: -moz-linear-gradient(90deg, rgba(224,164,164,1) 0%, rgba(255,203,0,1) 49%, rgba(149,254,0,1) 92%);
+    background: -webkit-linear-gradient(90deg, rgba(224,164,164,1) 0%, rgba(255,203,0,1) 49%, rgba(149,254,0,1) 92%);
+    background: linear-gradient(90deg, rgba(224,164,164,1) 0%, rgba(255,203,0,1) 49%, rgba(149,254,0,1) 92%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e0a4a4",endColorstr="#95fe00",GradientType=1); 
+}
+
+td {
+    border-radius: 2px;
+    opacity: 0.8;
+    padding: 5px;
+    width: 10px;
+    color: #000000;
+    background: rgb(238,174,202);
+    background: -moz-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#94bbe9",GradientType=1);
+}
+
+td:hover {
+    opacity: 1;
+}
+
+td:nth-child(1) {
+    width: 150px;
+}
+
+td:nth-child(2) {
+    text-align: center;
+}
+
+td:nth-child(3) {
+    text-align: center;   
+}
+
+/* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA */
+/* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA */
+/* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA *//* AAA */
+
 section {
-    float:left; display:right; width: 60%;
+    float:left; display:right; width: 70%;
 }
